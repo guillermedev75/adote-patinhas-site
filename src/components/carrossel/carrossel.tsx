@@ -21,7 +21,8 @@ const Carrossel = () => {
                 delay: 3000,
                 disableOnInteraction: false,
             }}
-            className="h-175"
+            className="h-80 sm:h-100 md:h-130 lg:h-150 xl:h-175"
+            // className="h-175"
         >
             <SwiperSlide>
                 <img src="/carrossel/1.png" className="w-full h-full object-cover" alt="Slide 1" />
